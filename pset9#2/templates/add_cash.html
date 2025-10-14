@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Cash
+{% endblock %}
+
+{% block main %}
+    <h1>Add Cash</h1>
+    <form action="/add_cash" method="post">
+        <div class="form-group">
+            <label for="cash">Amount:</label>
+            <input type="number" step="10" min="0" class="form-control" id="cash" name="cash" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Add Cash</button>
+    </form>
+{% endblock %}

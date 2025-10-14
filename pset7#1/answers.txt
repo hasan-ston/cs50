@@ -1,0 +1,11 @@
+- To characterize the audio aura of the listener whose top 100 songs from 2018 are contained in songs.db, we would
+  calculate the average values of valence, energy, and danceability for these songs. For example, high energy indicates
+  a more positive and dynamic vibe, while high valence suggests uplifting and cheerful music.
+
+- This method considers the top 100 songs from only one year, which might not accurately represent the true nature of
+  the listener's preference. Additionally, the top 100 songs might not capture the full diversity of the listener's music
+  preferences, as they only reflect the most frequently played songs.
+
+- Consider a larger range of songs that the listener has listened to in order to capture more diversity. Analyzing songs
+  from mulitple years would provide a more comprehensive view of the listener's evolving preferences and a more accurate
+  represenation of their audio aura.

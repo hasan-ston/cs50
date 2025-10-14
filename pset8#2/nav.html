@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        nav
+    </title>
+</head>
+    <body>
+        <div class="topnav">
+            <nav>
+                <ul>
+                    <li class="nav-item">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="dropbtn" onclick="toggleDropdown()">Entertain Me</a>
+                        <div class="dropdown-content" id="dropdownContent">
+                            <a href="lucky.html">Feeling Lucky</a>
+                            <a href="interesting_facts.html">Interesting Facts</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <script>
+            function toggleDropdown() {
+                var dropdown = document.getElementById("dropdownContent");
+                if (dropdown.style.display === "block") {
+                    dropdown.style.display = "none";
+                } else {
+                    dropdown.style.display = "block";
+                }
+            }
+        </script>
+    </body>
+</html>

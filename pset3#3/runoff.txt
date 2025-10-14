@@ -1,0 +1,7 @@
+Defined a struct called "candidate" that stores the information for each candidate, such as their name and number of votes received.
+- The "vote" function takes in a voter's ranking of a candidate and records it in the "preferences" array.
+- The "tabulate" function counts the votes for each remaining candidate who has not been eliminated.
+- The "print_winner" function checks if a candidate has received over 50% of the votes and returns true if there is a winer.
+- The "find_min" function finds the candidate with the fewest votes and who is still not eliminated.
+- The "is_tie" function checks if there is a tie between the remaining candidates with the fewest votes.
+- The "eliminate" function eliminates the candidate(s) with the fewest votes.

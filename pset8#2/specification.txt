@@ -1,0 +1,8 @@
+- HTML tags used: <div>, <main>, <h1>, <p>, <h3>, <ul>, <a>, <li>, <img>, <meta>
+
+- CSS properties: text-align, background-color, padding, display, box-shadow and more
+
+- JavaScript code was used to dynamically fetch the contents of 'nav.html' into other files.
+  It was also used to automatically redirect the user to a Youtube video when the page was loaded.
+
+- Bootstrap was used to structure the layout of the webpage and apply responsive design features.

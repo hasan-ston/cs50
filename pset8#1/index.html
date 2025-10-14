@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+            document.addEventListener('DOMContentLoaded', function()
+            {
+                let correctButton = document.querySelector('.correct');
+                correctButton.addEventListener('click', function()
+                {
+                    correctButton.style.backgroundColor = 'green';
+                    document.querySelector('.feedback').innerHTML = 'Correct';
+                });
+
+                let incorrectButtons = document.querySelectorAll('.incorrect');
+                incorrectButtons.forEach(function(element) {
+                element.addEventListener('click', function(){
+                    element.style.backgroundColor = 'red';
+                    document.querySelector('.feedback').innerHTML = 'Incorrect';
+                    });
+                });
+
+                document.querySelector('#check').addEventListener('click', function(){
+                    let userInput = document.querySelector('input');
+                    if (userInput.value === 'Jupiter') {
+                        userInput.style.backgroundColor = 'green';
+                        userInput.querySelector('.feedback').innerHTML = 'Correct';
+                    }
+                    else{
+                        userInput.style.backgroundColor = 'red';
+                        userInput.querySelector('.feedback').innerHTML = 'Incorrect';
+                    }
+                });
+
+            });
+
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                 <h3>What is the powerhouse of the cell?</h3>
+                 <button class = "correct" >Mitrochondria</button>
+                 <button class = "incorrect" >Nucleus</button>
+                 <button class = "incorrect" >Chloroplast</button>
+                 <button class = "incorrect" >Ribosome</button>
+                 <p class = "feedback"></p>
+                 <h2>Part 2: Free Response</h2>
+                 <hr>
+                 <!-- TODO: Add free response question here -->
+                 <h3>What is the largest planet in the solar system?</h3>
+                 <input type = "text"></input>
+                 <button id = "check">Check answer</button>
+                 <p class = "feedback"></p>
+            </div>
+        </div>
+    </body>
+</html>

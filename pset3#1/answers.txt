@@ -1,0 +1,21 @@
+sort1 uses: Bubble Sort
+
+How do you know?: The best-case time complexity of Bubble sort is Ω(n), when all numbers are
+ideally sorted(linearly). The algorithm iterates through all the numbers, and if no rearrangements are required,
+it terminates. Its runtime on sorted50000.txt file was significantly less than selection sort.
+
+sort2 uses: Merge Sort
+How do you know?: Considering the runtime complexity of Merge Sort as Θ(nlogn), it was expected that this
+algorithm would have the least amount of run-time compared to the other algorithms. Sort2 exhibited significantly
+faster performance, leading to the conclusion that it is implemented using Merge Sort.
+
+sort3 uses: Selection Sort
+
+How do you know?: The algorithm's notation of Θ(n^2) indicates that it takes a similar amount of
+time to run on both random and reversed datasets of similar size. This holds true even in the best-case
+scenario where the entire list of numbers is already sorted sequentially (i.e sorted datasets).
+
+
+
+
+

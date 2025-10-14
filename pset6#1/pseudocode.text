@@ -1,0 +1,6 @@
+Prompt the user for the height of the pyramid.
+If height is not within the range, go back to step one.
+Else, resume to next step
+Iterate from 1 to height
+Iterate from 0 to height - 1 (variable i represents the current row)
+Then print hashes and a newline

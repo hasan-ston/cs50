@@ -1,0 +1,86 @@
+body {
+    background-color: #E0F7FA; /* Light Cyan */
+    color: #006064; /* Dark Cyan for text */
+}
+
+.topnav a {
+    float: left;
+    color: #B2EBF2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a.active {
+    background-color: #00796B;
+    color: white;
+}
+
+.topnav ul {
+    list-style-type: none;  /* Remove bullets */
+    margin: 0;
+    display: flex;
+    background-color: #004D40;
+    padding: 0;
+}
+
+.topnav a:hover {
+    background-color: #80DEEA;
+    color: black;
+}
+
+.topnav {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    background-color: #004D40;
+    padding-right: 60px;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-fluid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topnav .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.topnav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #B2EBF2;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.topnav .dropdown-content a {
+    color: #004D40;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.topnav .dropdown-content a:hover {
+    background-color: #80DEEA;
+}
+
+.topnav .dropdown:hover .dropbtn {
+    background-color: #80DEEA;
+    color: black;
+}
+
+.topnav .dropbtn::after {
+    content: " \25BC"; /* Downward pointing arrow */
+    font-size: 12px;
+    margin-left: 8px;
+}
