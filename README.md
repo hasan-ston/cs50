@@ -20,9 +20,8 @@ Each folder corresponds to a problem set from the course, organized by week and 
 ## 🧠 What I Learned
 
 CS50 was my real introduction to computer science — not just syntax, but thinking like a computer scientist.  
-From debugging segmentation faults in C to building web apps with Flask, every problem set forced me to slow down, reason through logic, and fail forward.  
-It wasn’t always fun, but it was always worth it.
-
+I went from manipulating memory manually to understanding how web frameworks handle state and sessions.  
+Every pset taught something new — not just about programming, but about patience and precision.
 ---
 
 ## ⚠️ Disclaimer
