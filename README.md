@@ -32,13 +32,3 @@ If you’re currently taking CS50, **don’t** copy or submit any of this code �
 Use it to learn, not to cheat.
 
 ---
-
-## 🧾 Notes
-
-If you’re browsing the code:
-- Each `pset#` folder usually contains multiple subfolders for different exercises.
-- I didn’t include test outputs or CS50’s provided files — just my own code.
-
----
-
-*(Optional: If you want to make it more “official,” add a `LICENSE` file with the MIT License text. Otherwise, the disclaimer above is perfectly fine.)*
